@@ -61,10 +61,8 @@ public class ListenerClass implements ITestListener, ISuiteListener {
             ExtentLogger.fail(result.getThrowable().toString());
             ExtentLogger.fail(Arrays.toString(result.getThrowable().getStackTrace()));
         } catch (Exception e) {
-<<<<<<< HEAD
-=======
+
             // TODO Auto-generated catch block
->>>>>>> 129980a247db5cf38670301b50b8272bef8384e6
             e.printStackTrace();
         }
     }

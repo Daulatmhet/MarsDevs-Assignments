@@ -22,10 +22,8 @@ public class BasePage {
         try {
             ExtentLogger.pass(elementname + "is clicked", true);
         } catch (Exception e) {
-<<<<<<< HEAD
-=======
+
             // TODO Auto-generated catch block
->>>>>>> 129980a247db5cf38670301b50b8272bef8384e6
             e.printStackTrace();
         }
     }
@@ -37,10 +35,8 @@ public class BasePage {
         try {
             ExtentLogger.pass(value + "is entered sucessfully in" + elementname, true);
         } catch (Exception e) {
-<<<<<<< HEAD
-=======
+
             // TODO Auto-generated catch block
->>>>>>> 129980a247db5cf38670301b50b8272bef8384e6
             e.printStackTrace();
         }
     }
