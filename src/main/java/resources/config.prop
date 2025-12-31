@@ -1,0 +1,18 @@
+url=https://www.saucedemo.com/
+
+browser=chrome
+
+overridereports=yes
+
+passedstepsscreenshots=yes
+
+failedstepsscreenshots=yes
+
+skippedstepsscreenshots=yes
+
+username=standard_user
+password=secret_sauce
+
+# Invalid credentials
+invalid_username=wrong_user
+invalid_password=wrong_pass

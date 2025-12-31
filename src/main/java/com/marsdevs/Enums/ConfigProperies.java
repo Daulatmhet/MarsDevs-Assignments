@@ -1,0 +1,18 @@
+package com.marsdevs.Enums;
+
+public enum ConfigProperies {
+
+
+    URL,
+    OVERRIDEREPORTS,
+    PASSEDSTEPSSCREENSHOTS,
+    FAILEDSTEPSSCREENSHOTS,
+    SKIPPEDSTEPSSCREENSHOTS,
+    BROWSER,
+    USERNAME,
+    PASSWORD,
+    INVALID_USERNAME,
+    INVALID_PASSWORD
+}
+
+
