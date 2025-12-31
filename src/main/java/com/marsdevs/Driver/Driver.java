@@ -29,12 +29,15 @@
                 options.addArguments("--disable-infobars");
                 options.addArguments("--incognito");
 
+<<<<<<< HEAD
                 // Headless for CI
                 if (Boolean.parseBoolean(System.getenv("HEADLESS"))) {
                     options.addArguments("--headless=new");
                     options.addArguments("--window-size=1920,1080");
                 }
 
+=======
+>>>>>>> 129980a247db5cf38670301b50b8272bef8384e6
                 // 🔥 Unique temp profile (works on ALL machines)
                 String tempProfile = System.getProperty("java.io.tmpdir")
                         + "/chrome-profile-" + System.currentTimeMillis();
