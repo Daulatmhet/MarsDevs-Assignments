@@ -1,0 +1,9 @@
+[
+  {
+    "firstName": null,
+    "lastName": "Doe",
+    "postalCode": "12345",
+    "expectedError": "Error: First Name is required"
+  }
+]
+
